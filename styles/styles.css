@@ -1,0 +1,84 @@
+@import url(./reset.css);
+
+/* main nav */
+body > nav ul{
+     display: flex;
+     justify-content: space-around;
+     background: blue;
+
+}
+
+body > nav li{
+    padding: 1em;
+
+}
+body > nav a {
+    text-decoration: none;
+    color: yellow;
+}
+ body > nav a:hover{
+    color: orange;
+ }
+
+ /* header */
+ body > header{
+    height: 300px;
+    background: url(../images/vadim-sadovski-xYIp4RmxX20-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+ }
+ body > header h1{
+    font-size: 3.4em;
+    
+ }
+ body > header h2{
+    font-size: 2.1em;
+
+ }
+ button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+
+}
+/* main */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+}
+article{
+    width: 200px;
+    padding: 1em;
+}
+article img{
+    width: 100%;
+}
+
+#content {
+    display: flex;
+}
+/* aside content */
+aside{
+    width: 30%;
+    order: 1;
+
+}
+footer ul{
+     display: flex;
+     justify-content: space-around;
+
+}
+footer p{
+    text-align: center;
+    margin-top: 1em;
+}
